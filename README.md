@@ -1,6 +1,6 @@
 ## anvo_scrapy: 
-#### Python web scraper for downloading open-source and permissibly licensed animal vocalizatons from websites like Xeno-Canto. 
-#### Downloads by species common or latin name, limits by length or quality, and optionally organizes files by filter choices. 
+Python web scraper for downloading open-source and permissibly licensed animal vocalizatons from websites like Xeno-Canto. 
+Downloads by species common or latin name, limits by length or quality, and optionally organizes files by filter choices. 
 
 ##### **Note**: Xeno-Canto files are typically stored as .mp3 files, so unless the file extension differes on the source website, this script will probably also store audio in .mp3 format. (If source file characteristics are different, downloaded files should match original.)
 
