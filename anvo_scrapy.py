@@ -10,7 +10,7 @@ import platform
 import argparse
 import sys
 
-def download_animal_sounds(species, limit=50, quality=None, max_duration_minutes=5, base_dir='xenocanto', output_dir=None):
+def download_animal_sounds(species, limit=50, quality=None, max_duration_minutes=5, base_dir='xeno_canto', output_dir=None):
     """
     Download animal sound recordings from Xeno-Canto database.
     
@@ -160,7 +160,7 @@ PARAMETERS:
                           Default: 5
     
     --base-dir, -b         Base download directory (optional)
-                          Default: 'xenocanto'
+                          Default: 'xeno_canto'
     
     --output-dir, -o       Custom subdirectory name (optional)
                           Default: uses species name
@@ -208,7 +208,7 @@ Scientific Name Search:
 
 Custom Organization:
     python anvo_scrapy.py -s "eagle" -o "raptors" -q B
-    # Downloads to xenocanto/raptors/B/ directory
+    # Downloads to xeno_canto/raptors/B/ directory
 
 Multiple Filters:
     python anvo_scrapy.py -s "warbler" -q A -l 15 -d 3 -b "bird_sounds"
@@ -277,7 +277,7 @@ def main():
                        help='Maximum number of files (number or "unlimited")')
     parser.add_argument('-d', '--duration', type=str, default='5',
                        help='Maximum duration in minutes (number or "unlimited")')
-    parser.add_argument('-b', '--base-dir', type=str, default='xenocanto',
+    parser.add_argument('-b', '--base-dir', type=str, default='xeno_canto',
                        help='Base download directory')
     parser.add_argument('-o', '--output-dir', type=str,
                        help='Custom output subdirectory name')
