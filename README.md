@@ -65,13 +65,13 @@ download_animal_sounds('owl', limit=None, quality=None)
 
 #### Features
 
-##### Flexible search: Common names, scientific names, or genus
-##### Quality filtering: A-E ratings or unrated recordings
-##### Duration limits: Filter by recording length
-##### Auto-organization: Creates species/quality directory structure
-##### Cross-platform: Works on Windows, macOS, Linux
-##### Progress tracking: Shows download progress and final count
-##### Rate limiting: Respects API limits with built-in delays
+##### - Flexible search: Common names, scientific names, or genus
+##### - Quality filtering: A-E ratings or unrated recordings
+##### - Duration limits: Filter by recording length
+##### - Auto-organization: Creates species/quality directory structure
+##### - Cross-platform: Works on Windows, macOS, Linux
+##### - Progress tracking: Shows download progress and final count
+##### - Rate limiting: Respects API limits with built-in delays
 
 #### Quality Ratings (from Xeno-Canto)
 
